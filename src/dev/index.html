@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Food Sentiment Analysis</title>
+   
+    <link href="styles/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>      
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>  
+    <link href='https://fonts.googleapis.com/css?family=Pontano Sans' rel='stylesheet'>
+   
+    <!-- Memanggil versi terbaru TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+    <!--  -->
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+   
+    <!-- Add a <div> tag with the "main" class -->
+    <div class = "main">
+    <div class="container">
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+      <link href='https://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet'>
+     
+      <h1>Food Sentiment Analysis</h1>
+     
+      <h3>
+      <p>
+        This example demonstrated loading a pre-trained model and using it in the browser. This model is trained to
+        predict the sentiment of a short restaurant review (as a score between 0 and 1). The training is done server side
+        using Python and then converted into a TensorFlow.js model.
+      </p>
+      <p>
+        The model is trained using YELP reviews that have been truncated to a maximum of 20 words, only the
+        2000 most used words in the reviews are used. You can experiment with the model on this page
+      </p>
+      </h3>
+     
+    </div>
+    </div>
+   
+    <div class="container">
+    <div class = "demo">
+      <br><br>
+      <br><br>
+      <br><br>
+      <div id="loaderlabel"> <h2>Loading Model...</h2></div>
+      <div id="loader"> </div>  
+      <div style="display:none;" id="mainAPP">
+      <label for="input">How was your dinner? </label><br><br>
+      <input placeholder="Try: 'The salad is fresh and delicious" id="input">
+      <button class="button" style="vertical-align:middle"><span>Check Review </span></button>
+      <p></p>
+    </div>    
+    </div>  
+         
+    </div>
+      <!-- Memanggil script.js -->
+      <script src="js/script.js"></script>
+      <!--  -->
+  </body>
+</html>
