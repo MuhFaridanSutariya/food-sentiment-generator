@@ -11,4 +11,4 @@ To get started, clone this repository onto your local machine. Follow the instru
    ```bash
    git clone https://github.com/MuhFaridanSutariya/food-sentiment-generator.git
    ```
-4. Once the cloning process is complete, you can open the live server in index.html
+4. Once the cloning process is complete, you can open the live server in src/dev/index.html
