@@ -1,4 +1,4 @@
-![image](https://github.com/MuhFaridanSutariya/food-sentiment-generator/assets/88027268/6f47c7ed-66f8-4ee3-a6fc-0083c823525e)![image](https://github.com/MuhFaridanSutariya/food-sentiment-generator/assets/88027268/729eaaf1-a938-4836-8531-8b945be18eaf)
+![image](https://github.com/MuhFaridanSutariya/food-sentiment-generator/assets/88027268/6f47c7ed-66f8-4ee3-a6fc-0083c823525e)![image]
 
 ## How to run
 
